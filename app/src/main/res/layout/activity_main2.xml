@@ -1,0 +1,1094 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" tools:context=".MainActivity2">
+
+    <GridLayout
+        android:id="@+id/subbord1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:columnCount="3"
+        android:orientation="vertical"
+        android:rowCount="3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cpuText">
+
+        <Button
+            android:id="@+id/subbord1_00"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:layout_marginRight="5dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord1_10"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:layout_marginRight="5dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord1_20"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:layout_marginRight="5dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord1_01"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord1_11"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord1_21"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord1_02"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:layout_marginLeft="5dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord1_12"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:layout_marginLeft="5dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord1_22"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:layout_marginLeft="5dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/subbord2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:columnCount="3"
+        android:orientation="vertical"
+        android:rowCount="3"
+        app:layout_constraintLeft_toRightOf="@+id/subbord1"
+        app:layout_constraintRight_toLeftOf="@+id/subbord3"
+        app:layout_constraintTop_toBottomOf="@id/cpuText">
+
+        <Button
+            android:id="@+id/subbord2_00"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:layout_marginRight="5dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord2_10"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:layout_marginRight="5dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord2_20"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:layout_marginRight="5dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord2_01"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord2_11"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord2_21"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord2_02"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:layout_marginLeft="5dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord2_12"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:layout_marginLeft="5dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord2_22"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:layout_marginLeft="5dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/subbord3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="24dp"
+        android:columnCount="3"
+        android:orientation="vertical"
+        android:rowCount="3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/subbord1">
+
+        <Button
+            android:id="@+id/subbord3_00"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:layout_marginRight="5dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord3_10"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:layout_marginRight="5dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord3_20"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:layout_marginRight="5dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord3_01"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord3_11"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord3_21"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord3_02"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:layout_marginLeft="5dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord3_12"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:layout_marginLeft="5dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord3_22"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:layout_marginLeft="5dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/subbord4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:columnCount="3"
+        android:orientation="vertical"
+        android:rowCount="3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/subbord1">
+
+        <Button
+            android:id="@+id/subbord4_00"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:layout_marginRight="5dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord4_10"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:layout_marginRight="5dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord4_20"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:layout_marginRight="5dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord4_01"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord4_11"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord4_21"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord4_02"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:layout_marginLeft="5dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord4_12"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:layout_marginLeft="5dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord4_22"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:layout_marginLeft="5dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/subbord5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:columnCount="3"
+        android:orientation="vertical"
+        android:rowCount="3"
+        app:layout_constraintLeft_toRightOf="@+id/subbord4"
+        app:layout_constraintRight_toLeftOf="@+id/subbord6"
+        app:layout_constraintTop_toBottomOf="@+id/subbord2">
+
+        <Button
+            android:id="@+id/subbord5_00"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:layout_marginRight="5dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord5_10"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:layout_marginRight="5dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord5_20"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:layout_marginRight="5dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord5_01"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord5_11"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord5_21"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord5_02"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:layout_marginLeft="5dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord5_12"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:layout_marginLeft="5dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord5_22"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:layout_marginLeft="5dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/subbord6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:columnCount="3"
+        android:orientation="vertical"
+        android:rowCount="3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/subbord3">
+
+        <Button
+            android:id="@+id/subbord6_00"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:layout_marginRight="5dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord6_10"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:layout_marginRight="5dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord6_20"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:layout_marginRight="5dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord6_01"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord6_11"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord6_21"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord6_02"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:layout_marginLeft="5dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord6_12"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:layout_marginLeft="5dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord6_22"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:layout_marginLeft="5dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/subbord7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:columnCount="3"
+        android:orientation="vertical"
+        android:rowCount="3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/subbord4">
+
+        <Button
+            android:id="@+id/subbord7_00"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:layout_marginRight="5dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord7_10"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:layout_marginRight="5dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord7_20"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:layout_marginRight="5dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord7_01"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord7_11"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord7_21"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord7_02"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:layout_marginLeft="5dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord7_12"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:layout_marginLeft="5dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord7_22"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:layout_marginLeft="5dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/subbord8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:columnCount="3"
+        android:orientation="vertical"
+        android:rowCount="3"
+        app:layout_constraintLeft_toRightOf="@+id/subbord7"
+        app:layout_constraintRight_toLeftOf="@+id/subbord9"
+        app:layout_constraintTop_toBottomOf="@+id/subbord5">
+
+        <Button
+            android:id="@+id/subbord8_00"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:layout_marginRight="5dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord8_10"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:layout_marginRight="5dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord8_20"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:layout_marginRight="5dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord8_01"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord8_11"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord8_21"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord8_02"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:layout_marginLeft="5dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord8_12"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:layout_marginLeft="5dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord8_22"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:layout_marginLeft="5dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/subbord9"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:columnCount="3"
+        android:orientation="vertical"
+        android:rowCount="3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/subbord6">
+
+        <Button
+            android:id="@+id/subbord9_00"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:layout_marginRight="5dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord9_10"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:layout_marginRight="5dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord9_20"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:layout_marginRight="5dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord9_01"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord9_11"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord9_21"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord9_02"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:layout_marginLeft="5dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord9_12"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:layout_marginLeft="5dp"
+            android:text="x"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/subbord9_22"
+            android:layout_width="32dp"
+            android:layout_height="52dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:layout_marginLeft="5dp"
+            android:text="x"
+
+            app:strokeColor="#FFFFFF" />
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/playerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="serif-monospace"
+        android:text="@string/playerwins"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cpuText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="serif-monospace"
+        android:text="@string/cpuwins"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playerText" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
