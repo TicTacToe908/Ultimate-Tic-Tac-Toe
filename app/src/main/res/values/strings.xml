@@ -3,4 +3,5 @@
     <string name="git_name">Adam Smidt</string>
     <string name="playerwins">Player: 0 wins</string>
     <string name="cpuwins">CPU: 0 wins</string>
-</resources>
+    <string name="flag">DDC{H1Pp17y-h0pP17y-7H1sFlaG1sMyPr0p3r7y-Y0UCan7haV317}</string>
+</resources>    
