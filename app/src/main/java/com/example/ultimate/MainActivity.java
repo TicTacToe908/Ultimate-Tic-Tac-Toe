@@ -3,6 +3,7 @@ package com.example.ultimate;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.graphics.Color;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -45,9 +46,12 @@ public class MainActivity extends AppCompatActivity {
     private final boolean firstRound = false;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
+        resetBoards();
+    }
+
+    public void resetBoards(){
         subBoards = new ArrayList<>();
         subBoard1 = new SubBoard(findViewById(R.id.subbord1));
         subBoards.add(subBoard1);
@@ -69,16 +73,11 @@ public class MainActivity extends AppCompatActivity {
         subBoards.add(subBoard8);
         subBoard9 = new SubBoard(findViewById(R.id.subbord9));
         subBoards.add(subBoard9);
-
     }
 
     public void updateMainBoard(String board, boolean player){
-        int boardNumber = 0;
-        try {
-            boardNumber = Integer.parseInt(board.substring(board.length()-1));
-        } catch (NumberFormatException e) {
-            e.printStackTrace();
-        }
+        int boardNumber = Integer.parseInt(board.substring(board.length()-1));
+
         if(boardNumber <= 3){
             this.boardStatus[0][boardNumber-1] = 1;
             if(player){
@@ -88,8 +87,18 @@ public class MainActivity extends AppCompatActivity {
             }
         }else if(boardNumber <= 6){
             this.boardStatus[1][boardNumber-4] = 1;
+            if(player){
+                this.cpuBoardStatus[1][boardNumber-4] = 1;
+            }else{
+                this.playerBoardStatus[1][boardNumber-4] = 1;
+            }
         }else if(boardNumber <= 9){
             this.boardStatus[2][boardNumber-7] = 1;
+            if(player){
+                this.cpuBoardStatus[2][boardNumber-7] = 1;
+            }else{
+                this.playerBoardStatus[2][boardNumber-7] = 1;
+            }
         }
 
         checkBoard(player);
@@ -181,7 +190,9 @@ public class MainActivity extends AppCompatActivity {
 
                 break;
         }
+        resetBoards();
     }
+
 
     public void toggleBoard(SubBoard board, int onOff){
         //Log.d("onclick", "board: " + board.toString());
@@ -205,7 +216,7 @@ public class MainActivity extends AppCompatActivity {
         ArrayList<SubBoard> available = new ArrayList<>();
         ArrayList<String> availableName = new ArrayList<>();
         for (int i = 0; i < subBoards.size(); i++) {
-            if(subBoards.get(i).locked){
+            if(subBoards.get(i).doneStatus == 0 && subBoards.get(i).locked) {
                 available.add(subBoards.get(i));
                 availableName.add(String.valueOf(i + 1));
             }
@@ -246,8 +257,10 @@ public class MainActivity extends AppCompatActivity {
 
     private class SubBoard implements View.OnClickListener {
 
+
         GridLayout layout;
         ArrayList<View> layoutButtons;
+
         int[][] boardStatus = {{0,0,0},{0,0,0},{0,0,0}};
         int[][] cpuBoardStatus = {{0,0,0},{0,0,0},{0,0,0}};
         int[][] playerBoardStatus = {{0,0,0},{0,0,0},{0,0,0}};
@@ -286,11 +299,10 @@ public class MainActivity extends AppCompatActivity {
 
             for (int i = 0; i < 3; i++) {
                 for (int j = 0; j < 3; j++) {
-                    if(this.layoutButtons.get(index) instanceof Button){
-                        if(this.boardStatus[j][i] != 1 ){
-                            this.layoutButtons.get(index).setEnabled(locked);
-                        }
+                    if(this.boardStatus[j][i] != 1 ){
+                        this.layoutButtons.get(index).setEnabled(locked);
                     }
+                    index++;
                 }
             }
         }
@@ -367,6 +379,7 @@ public class MainActivity extends AppCompatActivity {
                 updateMainBoard(board, player);
             }
             //check to see if the whole game is done.
+
         }
 
 
