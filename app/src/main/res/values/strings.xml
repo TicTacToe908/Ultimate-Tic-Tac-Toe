@@ -3,6 +3,4 @@
     <string name="git_name">TicTacToe908</string>
     <string name="playerwins">Player: 0 wins</string>
     <string name="cpuwins">CPU: 0 wins</string>
-    <string name="flag">HKN{Jph-9CK-fSFg}</string>
-
 </resources>
