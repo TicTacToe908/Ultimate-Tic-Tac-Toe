@@ -224,11 +224,8 @@ public class MainActivity extends AppCompatActivity {
 
         //Selecting a random board
         int index = new Random().nextInt(available.size());
-        Log.d("CPU", "index: " + index);
-        Log.d("CPU", "size: " + available.size());
         SubBoard board = available.get(index);
 
-        //Getting all the btn available in the list as string.
         ArrayList<String> btns = new ArrayList<>();
 
         for (int i = 0; i < 3; i++) {
@@ -285,12 +282,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         public void toggleButtons(int onOff) {
-            // loop through them, if they are an instance of Button, disable it.
             int index = 0;
-            //if(!(doneStatus == 1 && this.locked == false)) {
-            //    this.locked = !locked;
-            //}
-
             if (onOff == 0){
                 this.locked = false; //locked board
             }else if (onOff == 1){
@@ -309,9 +301,6 @@ public class MainActivity extends AppCompatActivity {
 
 
         private void checkBoard(String board, boolean player) {
-            //((Button)v).setBackgroundColor(Color.rgb(81, 219, 78)); // color picker.
-
-            Log.d("checkBoard", "This is a check of board" + board + " by player " + player);
             if(player){
                 if(this.cpuBoardStatus[0][0] + this.cpuBoardStatus[1][0] + this.cpuBoardStatus[2][0] == 3){
                     this.doneStatus = 1;
